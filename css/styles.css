@@ -1,0 +1,15 @@
+body {
+  font-family: Roboto;
+}
+
+
+
+.jumbotron {
+  background-color: rgb(25, 124, 182);
+}
+
+
+.jumbotron h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
