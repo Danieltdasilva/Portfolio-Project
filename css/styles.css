@@ -1,15 +1,37 @@
 body {
   font-family: Roboto;
+  font-size: 1.2rem;
 }
 
+/* a {
+  transition: background-color 0.3 ease;
+} */
 
+a:hover {
+  text-decoration: underline;
+}
 
 .jumbotron {
-  background-color: rgb(25, 124, 182);
+  padding: 250px 250px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/img/Another\ Blog.png');
+  justify-content: center;
+  margin-bottom: 75px;
 }
-
 
 .jumbotron h1 {
   text-transform: capitalize;
   font-size: 3rem;
+
+}
+
+div .login {
+  position: fixed;
+  right: 320px;
+}
+
+.aboutMe h1 {
+  margin-top: 75px;
+  margin-left: 175px;
 }
